@@ -1,0 +1,27 @@
+.input-mensagem {
+    margin-bottom: 10px;
+}
+
+.mensagem-campo{
+    color: #686765;
+    font-size: 18px;
+}
+
+.estilo-input {
+    border: 1px solid rgba(89, 201, 165, 100);
+    border-radius: 6px;
+    background-color: rgba(0, 0, 0, 0);
+    padding: 10px 20px;
+    font-size: 20px;
+    width: 100%;
+}
+.estilo-input:focus{
+    border: 1.5px solid rgba(84, 194, 66, 0.57);
+    border-radius: 6px;
+    outline: none;
+}
+
+.required:after {
+    content:" *"; 
+    color: red;
+  }

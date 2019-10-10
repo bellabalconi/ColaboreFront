@@ -1,0 +1,32 @@
+.screen {
+  background-color:#fffdf7;   
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: arial;
+  color: rgba(0,0,0,0.59);
+  font-size: 16px;    
+}
+
+.App {
+  text-align: center;
+}
+
+.fileContainer{
+  text-align: center;
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+.card-columns{
+  max-width: 1100px;
+  padding: 0 10px;
+  margin: 0 auto;
+  /* box-sizing: border-box;
+  display: flex; */
+  align-items: center;
+  justify-content: center;
+} 
+
+

@@ -1,0 +1,179 @@
+.container{
+  max-width: 980px;
+  padding: 0 15px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  padding: 30px;
+  max-width: 1000px;
+  margin: 0 auto;
+  width: 100%;
+  box-sizing: border-box;
+  box-shadow: 0 0 20px rgba(0,0,0,0.2);
+  background-color: #fafafb;
+  text-align: left;
+}
+
+.nome-campo{
+  margin: 0px;
+  color: #686765;
+  font-size: 18px;
+}
+
+.input{
+  margin: 30px;
+}
+
+.input-meta{
+  border: 1px solid rgba(89, 201, 165, 100);
+  border-radius: 6px;
+  background-color: rgba(0, 0, 0, 0);
+  padding: 10px 20px;
+  font-size: 20px;
+  width: 100%;
+}
+
+.input-meta:focus{
+  border: 1.5px solid rgba(84, 194, 66, 0.57);
+  border-radius: 6px;
+  outline: none;
+}
+
+.descricao{
+  border: 1px solid rgba(89, 201, 165, 100);
+  border-radius: 6px;
+  background-color: rgba(0, 0, 0, 0);
+  padding: 10px 20px;
+  font-size: 20px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.descricao:focus{
+  border: 1.5px solid rgba(84, 194, 66, 0.57);
+  border-radius: 6px;
+  outline: none;
+}
+
+.botoes{
+  margin: auto;
+  
+}
+
+.radio-input-label{
+  color: rgba(0, 0, 0, 71);
+  font-size: 17px;
+  margin: 2px;
+  padding: 2px;
+  
+}
+
+.radio-input:checked {
+  background-position:0 -30px;
+  background: #54c242;
+  color: #54c242;
+}
+
+.titulo-tela{
+  color: #54c242;
+  text-align: left;
+  margin-top: 78px;
+}
+
+.stepper{
+  width: 100%;
+  margin-bottom: 5%;
+}
+
+.upload-imagem{
+  background-color: rgba(0, 0, 0, 0);
+  margin: 10%;
+}
+
+.tags-titulo{  
+  margin-bottom: 10%;
+}
+
+
+/* Tags Estilizacao */
+
+div.ReactTags__tags {
+  position: relative;
+  color: #686765;
+  font-size: 16px;
+}
+
+/* Styles for the input */
+div.ReactTags__tagInput {
+  width: 200px;
+  border-radius: 2px;
+  display: inline-block;
+  margin-bottom: 10%;
+  
+}
+div.ReactTags__tagInput input.ReactTags__tagInputField,
+div.ReactTags__tagInput input.ReactTags__tagInputField:focus {
+  height: 31px;
+  margin: 0;
+  font-size: 15px;
+  width: 100%;
+  border: 1px solid #eee;
+  border-radius: 3px;
+  padding: 0 4px;
+  /* border: 1px solid #59c9a9; */
+  box-shadow: .05em .01em .3em #59c9a9
+}
+
+/* Styles for selected tags */
+div.ReactTags__selected span.ReactTags__tag {
+  border: 1px solid #59c9a9;
+  border-radius: 6px;
+  color: white;
+  font-weight: bold;
+  background: #59c9a5;
+  font-size: 16px;
+  display: inline-block;
+  padding: 7px 10px;
+  margin: 0 5px;
+  cursor: move;
+  margin-bottom: 10%;
+  
+}
+div.ReactTags__selected a.ReactTags__remove {
+  color: white;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+/* Styles for suggestions */
+div.ReactTags__suggestions {
+  position: absolute;
+  font-size: 12px;
+}
+div.ReactTags__suggestions ul {
+  list-style-type: none;
+  box-shadow: .05em .01em .5em rgba(0,0,0,.2);
+  background: white;
+  width: 170px;
+  padding: 0 20px;
+}
+div.ReactTags__suggestions li {
+  border-bottom: 1px solid #ddd;
+  padding: 5px 10px;
+  margin: 0;
+  text-align: center;
+}
+div.ReactTags__suggestions li mark {
+  background: none;
+  font-weight: 600;
+}
+div.ReactTags__suggestions ul li.ReactTags__activeSuggestion {
+  background: #b7cfe0;
+  cursor: pointer;
+}

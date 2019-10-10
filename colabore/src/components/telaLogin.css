@@ -1,0 +1,20 @@
+h1 {
+    font-size: 35px;
+    font-family: 'Trebuchet MS';
+    color: #54c242;
+    margin:65px;
+}
+h5 a{
+    color: #59c9a5;
+    text-decoration: none;
+    font-family: arial;
+}
+
+h5 a:hover{
+    text-decoration: none;
+    color: #54c242;
+}
+
+input{
+    margin: 0px 0px 40px 0px;
+}

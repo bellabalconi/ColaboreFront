@@ -1,0 +1,67 @@
+.button { 
+  border: none;
+  color: white;
+  border-radius: 10px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 10px 10px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  font-weight: bold;
+}
+.button:hover {
+  background-color: rgba(119, 204, 106, 0.57);
+  color: white;
+}
+  
+.verde {
+    background-color: rgba(84, 194, 66, 0.57);
+    color: white;
+}
+
+.azul{
+  background-color: #59c9a9;
+  color: white;
+}
+
+.azul:hover{
+  background-color: #71e2c2;
+  border-color: #71e2c2;
+  color: white;
+}
+
+.vermelho {
+  background-color: rgba(255, 0, 0, 0.68);
+  border-color: rgba(255,0,0, 0.68);
+  color: white;
+}
+
+.vermelho:hover{
+  color: white;
+  font-family: arial;
+  background-color: rgba(255, 50, 50, 0.68);
+  text-decoration: none;
+}
+button:disabled{
+  background-color: #C0C0C0;
+  pointer-events: none;
+}
+.metas:focus{
+  background-color: rgb(40, 167, 69);
+  color:white;
+}
+
+.botao-link{
+  color: white;
+  text-decoration: none;
+}
+
+.botao-link:hover{
+  color: white;
+  text-decoration: none;
+}
+
+
+
